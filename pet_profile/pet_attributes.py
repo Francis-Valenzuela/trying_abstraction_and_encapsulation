@@ -2,7 +2,13 @@ from pet_record import Pet
 
 name = input("Name of the Pet:")
 type_of_animal = input("Type of Animal:")
-pet_age = input("Age of the Pet:")
+while True:
+    try:
+        pet_age = int(input("Age of the Pet:"))
+        break
+    except ValueError:
+        print("Please enter a valid age")
+        continue
 
 my_pet = Pet(name, type_of_animal, pet_age)
 
