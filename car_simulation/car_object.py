@@ -12,7 +12,7 @@ my_car = Car(year_model,model)
 print(my_car)
 
 # accelerate 5 times
-print("Accelerating:")
+print("\nAccelerating:")
 for accelerate in range(5):
     my_car.accelerate()
     print(my_car.get__speed())
