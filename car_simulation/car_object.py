@@ -16,7 +16,7 @@ for accelerate in range(5):
     my_car.accelerate()
     print(my_car.get__speed())
 # brake 5 times
-print("Braking:")
+print("\nBraking:")
 for decelerate in range(5):
     my_car.brake()
     print(my_car.get__speed())
