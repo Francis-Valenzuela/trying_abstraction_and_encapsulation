@@ -1,32 +1,30 @@
 class Fan:
-    Slow = 1
-    Medium = 2
-    Fast = 3
+    slow = 1
+    medium = 2
+    fast = 3
 
-    def __init__(self, speed=Slow, radius=5, color="blue", on=False):
+    def __init__(self, speed=slow, on=False, radius=5.0, color="blue"):
+        __speed = speed
+        __on = on
+        __radius = radius
+        __color = color
 
-        self.__speed = speed
-        self.__on = on
-        self.__radius = radius
-        self.__color = color
-
-    def get_speed(self):
+    # accessors
+    def get__speed(self):
         return self.__speed
+    def get__on(self):
+        return self.__on
+    def get__radius(self):
+        return self.__radius
+    def get__color(self):
+        return self.__color
+
+    # mutators
     def set_speed(self, speed):
         self.__speed = speed
-
-    def get_color(self):
-        return self.__color
-    def set_color(self, color):
-        self.__color = color
-
-    def get_on(self):
-        return self.__on
     def set_on(self, on):
         self.__on = on
-
-    def get_radius(self):
-        return self.__radius
     def set_radius(self, radius):
         self.__radius = radius
-
+    def set_color(self, color):
+        self.__color = color
