@@ -9,6 +9,7 @@ while True:
         print("Please enter a year model of Car")
 
 my_car = Car(year_model,model)
+print(my_car)
 
 # accelerate 5 times
 print("Accelerating:")
@@ -21,4 +22,3 @@ for decelerate in range(5):
     my_car.brake()
     print(my_car.get__speed())
 
-print(my_car)
