@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e51822a6-dcb8-4a48-ab67-a15063e7b731" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/fan.py" beforeDir="false" afterPath="$PROJECT_DIR$/fan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_fan.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_fan.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +26,10 @@
     <commands />
     <urls />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="3EQd8nzzZ3QZQvaHdNRuDrSnUN8" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,6 +38,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.fan.executor": "Run",
     "Python.test_fan.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
